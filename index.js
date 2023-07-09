@@ -1,4 +1,5 @@
 const bodyEl = document.querySelector("body");
+const timerContainer = document.getElementById("timer");
 
 bodyEl.addEventListener("mousemove", (event) => {
   const xPos = event.offsetX;
