@@ -96,3 +96,23 @@ span {
   font-size: 2rem;
   margin-top: 10%;
 }
+
+#timer {
+  color: #fff;
+  font-size: 8rem;
+}
+
+@media (max-width: 768px) {
+  .btn-container {
+    display: none;
+  }
+
+  .container h1 {
+    font-size: 1.5rem;
+    margin-top: 78%;
+  }
+
+  .image-container {
+    margin-top: 35%;
+  }
+}

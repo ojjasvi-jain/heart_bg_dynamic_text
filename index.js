@@ -1,4 +1,5 @@
 const bodyEl = document.querySelector("body");
+const timerContainer = document.getElementById("timer");
 
 bodyEl.addEventListener("mousemove", (event) => {
   const xPos = event.offsetX;
@@ -57,6 +58,8 @@ let characterIndex = 0;
 updateText();
 
 function updateText() {
+  timerContainer.innerText = "🎂";
+
   characterIndex++;
   containerEl.innerHTML = `
     <h1>happy birthday to best ${
